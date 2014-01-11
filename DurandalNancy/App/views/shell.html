@@ -1,9 +1,11 @@
 ﻿<div>
-    <ul data-bind="foreach: router.navigationModel">
-        <li data-bind="css: { active: isActive }">
-            <a data-bind="attr: { href: hash }, html: title"></a>
-        </li>
-    </ul>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <ul class="nav navbar-nav pull-right" data-bind="foreach: router.navigationModel">
+            <li data-bind="css: { active: isActive }">
+                <a data-bind="attr: { href: hash }, html: title"></a>
+            </li>
+        </ul>        
+    </div>
 
-    <div data-bind="router: { cacheViews:true }"></div>
+    <div class="container" data-bind="router: { cacheViews:true }"></div>
 </div>
