@@ -4,7 +4,7 @@
 
 Using them together we have a super-duper-happy SPA web app done right! :-)
 
-This is a simple ASP.NET web application showing how they can be used together.
+This is a simple ASP.NET web application showing how they can be used together. See the [site running on Windows Azure](http://github-durandalnancy.azurewebsites.net/)!
 
 
 ##Minimum NuGet Packages Requirement
